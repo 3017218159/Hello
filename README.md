@@ -13,7 +13,8 @@
    输出Hello World：
    
    ![image](https://github.com/3017218159/Hello/blob/master/3.png)
-        
+
+注：在最后提交的版本中，添加了传入命令行参数的方法，可以将长度大于等于2的命令行参数的前两位输出为：A is B的形式
 ## 实现3.用WPF实现Hello World
    新建UserControl1.xaml，写代码如下：
     ![image](https://github.com/3017218159/Hello/blob/master/4.png)
