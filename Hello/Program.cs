@@ -20,9 +20,11 @@ namespace Hello
 
             //instantiation method
             HelloWorld myHelloWorld=new HelloWorld();
+            myHelloWorld.SayHello1();
             myHelloWorld.SayHello1(args);
 
             //static method
+            HelloWorld.SayHello2();
             HelloWorld.SayHello2(args);
         }
     }
