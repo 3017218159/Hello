@@ -16,14 +16,14 @@ namespace Hello
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Hello World!");
             Console.ResetColor();
-            Console.WriteLine("{0} is {1}", args[0], args[1]);
+            //Console.WriteLine("{0} is {1}", args[0], args[1]);
 
             //instantiation method
             HelloWorld myHelloWorld=new HelloWorld();
-            myHelloWorld.SayHello1();
+            myHelloWorld.SayHello1(args);
 
             //static method
-            HelloWorld.SayHello2();
+            HelloWorld.SayHello2(args);
         }
     }
 }

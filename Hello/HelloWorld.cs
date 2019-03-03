@@ -4,14 +4,29 @@ namespace Hello
 {
     class HelloWorld
     {
-        public void SayHello1()
+        public void SayHello1(string[] str)
         {
-            Console.WriteLine("Hello World! in a instantiation method.");
+            if (str.Length >= 2)
+            {
+                Console.WriteLine("Hello World! in a instantiation method.");
+                Console.WriteLine(str[0] + " is " + str[1]);
+            }else
+            {
+                Console.WriteLine("Input Wrong");
+            }
         }
 
-        public static void SayHello2()
+        public static void SayHello2(string[] str)
         {
-            Console.WriteLine("Hello World! in a static method.");
+            if (str.Length >= 2)
+            {
+                Console.WriteLine("Hello World! in a static method.");
+                Console.WriteLine(str[0] + " is " + str[1]);
+            }
+            else
+            {
+                Console.WriteLine("Input Wrong");
+            }
         }
     }
 }
