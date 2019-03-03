@@ -22,3 +22,7 @@
    格式居中，改变前景背景颜色，显示Hello World！效果如下：
    ![image](https://github.com/3017218159/Hello/blob/master/5.png)
    
+## 实现4.用WindowsForms实现Hello World
+   新建Form1.cs，创建一个Button, 文本填入Hello World！，实现WindowsForms的HelloWorld。
+   效果如下：
+   ![image](https://github.com/3017218159/Hello/blob/master/6.png)
