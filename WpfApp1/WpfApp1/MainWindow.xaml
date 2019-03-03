@@ -9,6 +9,6 @@
     <Grid>
         <TextBlock x:Name="m_TextBlock" Text="Hello World!" Width="380" Height="100" 
                    HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" 
-                   Foreground="Red" Background="YellowGreen"></TextBlock>
+                   Foreground="Red" ></TextBlock>
     </Grid>
 </Window>
