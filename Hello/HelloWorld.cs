@@ -13,7 +13,7 @@ namespace Hello
         {
             if (str.Length >= 2)
             {
-                Console.WriteLine("Hello World! in a instantiation method.");
+                Console.Write("Hello World! in a instantiation method with command-line arguments: ");
                 Console.WriteLine(str[0] + " is " + str[1]);
             }else
             {
@@ -30,7 +30,7 @@ namespace Hello
         {
             if (str.Length >= 2)
             {
-                Console.WriteLine("Hello World! in a static method.");
+                Console.Write("Hello World! in a static method with command-line arguments: ");
                 Console.WriteLine(str[0] + " is " + str[1]);
             }
             else

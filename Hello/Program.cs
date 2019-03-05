@@ -18,7 +18,7 @@ namespace Hello
             Console.ResetColor();
             if (args.Length >= 2)
             {
-                Console.WriteLine("Hello World!");
+                Console.Write("Hello World!");
                 Console.WriteLine(args[0] + " is " + args[1]);
             }
             else
