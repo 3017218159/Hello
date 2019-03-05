@@ -16,10 +16,10 @@ namespace Hello
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Hello World!");
             Console.ResetColor();
-            if (str.Length >= 2)
+            if (args.Length >= 2)
             {
                 Console.WriteLine("Hello World!");
-                Console.WriteLine(str[0] + " is " + str[1]);
+                Console.WriteLine(args[0] + " is " + args[1]);
             }
             else
             {
