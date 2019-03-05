@@ -16,7 +16,15 @@ namespace Hello
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Hello World!");
             Console.ResetColor();
-            //Console.WriteLine("{0} is {1}", args[0], args[1]);
+            if (str.Length >= 2)
+            {
+                Console.WriteLine("Hello World!");
+                Console.WriteLine(str[0] + " is " + str[1]);
+            }
+            else
+            {
+                Console.WriteLine("Input Wrong");
+            }
 
             //instantiation method
             HelloWorld myHelloWorld=new HelloWorld();
